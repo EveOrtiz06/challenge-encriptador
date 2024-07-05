@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
 
     </header>
 
 
-    <main>
-        <section>
-        <div class="container">
-            <textarea></textarea>
-            <div>
-                <button>Encriptador</button>
-                <button>Desencriptador</button>
-     
-            </div>
-        </div>
-    </section>
+    <main class="container__general">
+        <section class="container1">
+            <div class="container__texto__entrante">
+                <textarea rows="30" cols="60" placeholder="Ingrese el texto aqui"></textarea>
+                <div class="container__seccion1">
+                    <div class="container__comentario">
+                        <img src="./assets/bi_exclamation-circle-fill.png" alt="">
+                        <p>Solo letras minúsculas y sin acentos</p>
+                    </div>
+                    <div class="container__botones">
+                        <button onclick="encriptar();">Encriptador</button>
+                        <button onclick="desencriptar();">Desencriptador</button>
 
-        <section>
-            <div>
-                
+                    </div>
+                </div>
             </div>
-            
         </section>
-        
-        
+
+        <section class="container1">
+            <div class="container1__texto">
+                <div class="container1__texto__saliente">
+                    <p onclick="resultado();"></p>
+                </div>
+                <button class="boton__copiar">Copiar</button>
+            </div>
+        </section>
+
+
     </main>
 
 
@@ -44,4 +54,5 @@
 
     <script src="app.js"></script>
 </body>
+
 </html>
