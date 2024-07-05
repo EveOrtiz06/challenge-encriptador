@@ -7,7 +7,7 @@
 // No deben ser utilizados letras con acentos ni caracteres especiales
 // Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
 
-let encriptador = document.HTMLTextAreaElement("#texto__ingresado");
+
 
 
 
@@ -15,7 +15,7 @@ let encriptador = document.HTMLTextAreaElement("#texto__ingresado");
 
 // funciones
 function encriptar() {
-    
+    let encriptador = document.HTMLTextAreaElement("#encriptador");
 }
 
 function desencriptar() {
