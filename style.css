@@ -4,6 +4,14 @@
     text-decoration: none;
 }
 
+
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
 /* HEADER */
 
 
@@ -26,7 +34,7 @@
 
 .container1__texto {
     width: 400px;
-    height: 944px;
+    height: 600px;
     border-radius: 32px;
     border: 0 solid;
     background-color: #E5E5E5;
