@@ -4,11 +4,16 @@
     text-decoration: none;
 }
 
-
+:root {
+    --color-primario: #E5E5E5;
+    --color-secundario: #0A3871;
+    --color-terciario: #ffffff;
+}
 
 body {
     display: flex;
     justify-content: center;
+    background-color: var(--color-primario);
 }
 
 
@@ -19,11 +24,29 @@ body {
 /* MAIN */
 .container__general {
     display: flex;
+    background-color: var(--color-primario);
+    width: 680px;
+    height: 994px;
+
 }
 
+textarea {
+    
+    height: auto;
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    font-size: 32px; 
+    flex-direction: row;
+}
+
+
 /* SECCION 1 */
-.container__comentario {
-    display: flex
+.container__botones button {
+    display: flex;
+    border: solid 1px var(--color-secundario);
+    border-radius: 24px ;
+    width: 328px;
+    height: 67px;
 }
 
 
@@ -34,10 +57,10 @@ body {
 
 .container1__texto {
     width: 400px;
-    height: 600px;
+    height: 994px;
     border-radius: 32px;
     border: 0 solid;
-    background-color: #E5E5E5;
+    background-color: var(--color-terciario);
 }
 
 .boton__copiar {
