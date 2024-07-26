@@ -36,6 +36,7 @@ body {
 
 .container__texto__entrante {
     width: 41.75em;
+    height: 944px;
 }
 
 textarea {
@@ -45,6 +46,9 @@ textarea {
     color: var(--color-secundario);
     font-size: 32px;
     flex-direction: row;
+    width: 680px;
+    height: auto;
+    margin: 0;;
 }
 
 
@@ -61,17 +65,19 @@ textarea {
     justify-content: center;
     
     display: inline;
-
+    
 
 
 }
 
-.container__botones button {
+button {
     border-radius: 24px;
     border: solid 1px var(--color-secundario);
     width: 328px;
     height: 67px;
     cursor: pointer;
+    margin: 30px auto;
+    
 }
 
 
@@ -88,14 +94,20 @@ textarea {
 
 .container2__texto {
     width: 400px;
-    height: 994px;
+    height: 944px;
     border-radius: 32px;
     border: 0 solid;
     background-color: var(--color-terciario);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
 }
 
 .boton__copiar {
-    justify-content: end;
+    
+    
+    background-color: var(--color-terciario);
 }
 
 
