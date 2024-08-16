@@ -31,41 +31,49 @@ body {
     background-color: var(--color-primario);
     margin: 40px auto;
 
-
 }
 
 .container__texto__entrante {
     width: 41.75em;
     height: 944px;
+    flex-direction: column;
+    
 }
 
 textarea {
 
 
     background-color: var(--color-primario);
-    color: var(--color-secundario);
     font-size: 32px;
     flex-direction: row;
     width: 680px;
     height: auto;
-    margin: 0;;
+    margin: 0;
+    resize: none;
+
 }
 
+.texto__ingresado::placeholder {
+    color: var(--color-secundario);
+}
 
 /* SECCION 1 */
+.container1 {
+    padding: 40px;
+}
 
-
-.container__comentario {
-    flex-direction: row;
-
+.container__informacion {
+    display: inline-flex;
+    gap: 10px;
 }
 
 .container__botones {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     
-    display: inline;
     
+
+
 
 
 }
@@ -78,6 +86,8 @@ button {
     cursor: pointer;
     margin: 30px auto;
     
+
+
 }
 
 
@@ -91,6 +101,9 @@ button {
 }
 
 /* SECCION 2 */
+.container2 {
+    padding: 40px;
+}
 
 .container2__texto {
     width: 400px;
@@ -101,12 +114,12 @@ button {
     display: flex;
     justify-content: center;
     align-items: end;
-    
+
 }
 
 .boton__copiar {
-    
-    
+
+
     background-color: var(--color-terciario);
 }
 
