@@ -34,12 +34,17 @@ body {
 
 }
 
+
+/* SECCION 1 */
+
 .container__texto__entrante {
     width: 41.75em;
-    height: 944px;
+    height: 94.4vh;
     flex-direction: column;
     
 }
+
+
 
 textarea {
 
@@ -58,7 +63,7 @@ textarea {
     color: var(--color-secundario);
 }
 
-/* SECCION 1 */
+
 .container1 {
     padding: 40px;
 }
@@ -107,8 +112,8 @@ button {
 }
 
 .container2__texto {
-    width: 400px;
-    height: 944px;
+    width: 40vh;
+    height: 94.4vh;
     border-radius: 32px;
     border: 0 solid;
     background-color: var(--color-terciario);
