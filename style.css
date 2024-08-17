@@ -39,7 +39,7 @@ body {
 
 .container__texto__entrante {
     width: 41.75em;
-    height: 94.4vh;
+    height: 80vh;
     flex-direction: column;
     
 }
@@ -113,7 +113,7 @@ button {
 
 .container2__texto {
     width: 40vh;
-    height: 94.4vh;
+    height: 80vh;
     border-radius: 32px;
     border: 0 solid;
     background-color: var(--color-terciario);
