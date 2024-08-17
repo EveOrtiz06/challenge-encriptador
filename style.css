@@ -28,6 +28,7 @@ body {
 .container__general {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     background-color: var(--color-primario);
     margin: 40px auto;
 
