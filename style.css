@@ -52,9 +52,9 @@ header img {
 
 
 /* SECCION 1 */
-section  .container1 {
+section .container1 {
     display: flex;
-    height: 100%;
+    
     flex-direction: column;
     justify-content: space-between;
     
