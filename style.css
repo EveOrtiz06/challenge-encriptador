@@ -11,60 +11,73 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
+    display: flex ;
+    height: 100vh;
+    width: auto;
     background-color: var(--color-primario);
-    height: 100%;
+
 }
 
 
 /* HEADER */
-header img {
+ /* header {
+    width: 15vw;
+    height: 100vh;
+    
+}  */
 
-    margin: 30px 0;
+header img {
+    
+    margin: 30px 10px;
     
 } 
+
 
 
 /* MAIN */
 .container__general {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     background-color: var(--color-primario);
     margin: 20px auto;
     padding: 0;
+    height: 90vh;
+    width: 90vw;
+
+
+
 
 }
 
 
 /* SECCION 1 */
 .container1 {
-    padding: 0 40px;
-}
-
-.container__texto__entrante {
-    width: 41.75em;
-    height: 80vh;
-    flex-direction: column;
+    height: 100%;
+    flex-flow: column wrap;
+    justify-content: space-between;
     
+    padding: 10px;
+
+
 }
 
 
 
 textarea {
-
-
     background-color: var(--color-primario);
     font-size: 32px;
     flex-direction: row;
     width: 100%;
     height: auto;
-    margin: 10% auto;
     resize: none;
-    
+
 }
 
+
+/* .container__informacion__botones {
+    align-items: end;
+} */
 .texto__ingresado::placeholder {
     color: var(--color-secundario);
 }
@@ -79,9 +92,13 @@ textarea {
 
 .container__botones {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
     
-    
+
+
 
 
 
@@ -91,11 +108,11 @@ textarea {
 button {
     border-radius: 24px;
     border: solid 1px var(--color-secundario);
-    width: 328px;
+    width: 250px;
     height: 67px;
     cursor: pointer;
     margin: 30px auto;
-    
+
 
 
 }
@@ -112,13 +129,14 @@ button {
 
 /* SECCION 2 */
 .container2 {
-    padding: 0 40px;
-    
+    width: 25vw;
+    height: 100%;
+    margin: auto;
 }
 
 .container2__texto {
     width: 100%;
-    height: 90vh;
+    height: 100%;
     border-radius: 32px;
     border: 0 solid;
     background-color: var(--color-terciario);
@@ -140,7 +158,49 @@ button {
 
 /* FOOTER */
 
-footer {
-    margin: 0;
-    padding: 0;
+/* footer {
+    width: 100%;
+    height: 5%;
+    
+    
+} */
+
+
+@media (max-width: 768px) {
+
+    body {
+        flex-wrap: wrap;
+    }
+    main {
+        
+        height: 90vh;
+        width: 100vw;
+       
+    
+    }
+    /* HEADER */
+    header  {
+        width: 100vw;
+        height: 10vh;
+    }
+
+
+
+    .container1 {
+        width: 100%;
+    }
+
+    .container2 {
+        width: 100vw;
+        height: 100%;
+    }
+
+
+    button {
+        width:100%;
+    }
+
+    .boton__copiar {
+        width: 90%;
+    }
 }
