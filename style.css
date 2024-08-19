@@ -52,7 +52,7 @@ header img {
 
 
 /* SECCION 1 */
-.container1 {
+section  .container1 {
     display: flex;
     height: 100%;
     flex-direction: column;
