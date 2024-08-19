@@ -130,7 +130,7 @@ button {
 
 /* SECCION 2 */
 .container2 {
-    width: 250px;
+    width: 280px;
     height: 100%;
     margin: auto;
 }
@@ -150,8 +150,13 @@ button {
 }
 
 .boton__copiar {
-    align-self: end;
+<<<<<<< HEAD
+
+    align-self: flex-end;
+=======
     
+    
+>>>>>>> a356bb71a268b02f5a7d8dfd2f24e45617c3c458
     background-color: var(--color-terciario);
 }
 
