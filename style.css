@@ -40,7 +40,7 @@ header img {
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: var(--color-primario);
-    margin: 20px auto;
+    margin: auto;
     padding: 0;
     height: 90vh;
     width: 90vw;
@@ -171,6 +171,12 @@ button {
     body {
         flex-wrap: wrap;
     }
+
+    header  {
+        width: 100vw;
+        height: 10vh;
+    }
+
     main {
         
         height: 90vh;
@@ -179,11 +185,7 @@ button {
     
     }
     /* HEADER */
-    header  {
-        width: 100vw;
-        height: 10vh;
-    }
-
+    
 
 
     .container1 {
