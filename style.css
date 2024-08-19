@@ -142,14 +142,15 @@ button {
     border: 0 solid;
     background-color: var(--color-terciario);
     display: block;
-    justify-content: center;
-    align-items: end;
+    justify-content: space-between;
+    justify-items: center;
+    
     
 
 }
 
 .boton__copiar {
-
+    align-self: end;
     
     background-color: var(--color-terciario);
 }
