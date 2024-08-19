@@ -150,13 +150,8 @@ button {
 }
 
 .butoon__copiar {
-<<<<<<< HEAD
-
+    
     align-self: flex-end;
-=======
-    
-    
->>>>>>> a356bb71a268b02f5a7d8dfd2f24e45617c3c458
     background-color: var(--color-terciario);
 }
 
