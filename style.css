@@ -52,11 +52,12 @@ header img {
 
 
 /* SECCION 1 */
-section .container1 {
+.container1 {
+    height: 100%;
     display: flex;
-    
-    flex-direction: column;
     justify-content: space-between;
+    flex-direction: column;
+    
     
 
 
@@ -148,7 +149,7 @@ button {
 
 .boton__copiar {
 
-
+    margin: 5px;
     background-color: var(--color-terciario);
 }
 
