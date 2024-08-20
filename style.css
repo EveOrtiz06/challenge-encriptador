@@ -15,16 +15,17 @@ body {
     height: 100vh;
     width: auto;
     background-color: var(--color-primario);
+    margin-bottom: 10px;
 
 }
 
 
 /* HEADER */
-/* header {
-    width: 15vw;
-    height: 100vh;
+header {
     
-}  */
+    height: 100h;
+    
+} 
 
 header img {
 
@@ -34,15 +35,16 @@ header img {
 
 
 
+
 /* MAIN */
 .container__general {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     background-color: var(--color-primario);
     margin: auto;
     padding: 0;
-    height: 90vh;
+    height: 85vh;
     width: 90vw;
 
 
@@ -99,7 +101,7 @@ textarea {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    
+
     width: 100%;
 
 
@@ -134,7 +136,7 @@ button {
 
 /* SECCION 2 */
 .container2 {
-    width: 280px;
+    width: auto;
     height: 100%;
     margin: auto;
 }
@@ -147,7 +149,7 @@ button {
     background-color: var(--color-terciario);
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 
 
@@ -156,7 +158,7 @@ button {
 }
 
 .container1__texto__saliente {
-    text-align:  center;
+    text-align: center;
 }
 
 .container2__texto img {
@@ -177,12 +179,6 @@ button {
 
 /* FOOTER */
 
-/* footer {
-    width: 100%;
-    height: 5%;
-    
-    
-} */
 
 
 @media (max-width: 768px) {
@@ -205,17 +201,19 @@ button {
 
     }
 
+    
 
     .container1 {
         width: 100%;
         margin: 5px 0;
-        justify-content: space-around;
+        justify-content: center;
     }
 
     .container2 {
         width: 100vw;
         height: 30%;
-        margin: 5px 0;
+        margin: 5px auto;
+       
     }
 
 
@@ -224,7 +222,7 @@ button {
     }
 
     .container2__texto img {
-       display: none;
+        display: none;
     }
 
     .boton__copiar {
