@@ -57,13 +57,10 @@ header img {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-<<<<<<< HEAD
 
 
-=======
-    
-    
->>>>>>> a347e320eb1fdf2ce46d8d38c3508308ccb1eb3f
+
+
 
 
 }
@@ -149,22 +146,14 @@ button {
     display: block;
     justify-content: space-between;
     justify-items: center;
-<<<<<<< HEAD
-
-
-=======
     
     
->>>>>>> a347e320eb1fdf2ce46d8d38c3508308ccb1eb3f
+
 
 }
 
 .butoon__copiar {
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> a347e320eb1fdf2ce46d8d38c3508308ccb1eb3f
     align-self: flex-end;
     background-color: var(--color-terciario);
 }
@@ -189,34 +178,19 @@ button {
         flex-wrap: wrap;
     }
 
-<<<<<<< HEAD
+
     header {
-=======
-    header  {
->>>>>>> a347e320eb1fdf2ce46d8d38c3508308ccb1eb3f
         width: 100vw;
         height: 20vh;
-        ;
+        
     }
 
     main {
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> a347e320eb1fdf2ce46d8d38c3508308ccb1eb3f
         height: 80vh;
         width: 100vw;
 
 
     }
-
-    /* HEADER */
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> a347e320eb1fdf2ce46d8d38c3508308ccb1eb3f
 
 
     .container1 {
