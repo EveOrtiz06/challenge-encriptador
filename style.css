@@ -55,9 +55,9 @@ header img {
 .container1 {
     height: 100%;
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
 
+    flex-direction: column;
+    justify-content: space-between;
 
 
 
@@ -78,9 +78,10 @@ textarea {
 }
 
 
-/* .container__informacion__botones {
+.container__informacion__botones {
     align-items: end;
-} */
+}
+
 .texto__ingresado::placeholder {
     color: var(--color-secundario);
 }
@@ -143,14 +144,25 @@ button {
     border-radius: 32px;
     border: 0 solid;
     background-color: var(--color-terciario);
-    display: block;
-    justify-content: space-between;
-    justify-items: center;
-    
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
 
 
 }
+
+.container1__texto__saliente {
+    text-align:  center;
+}
+
+.container2__texto img {
+    width: 100%;
+    height: auto;
+}
+
 
 .butoon__copiar {
 
@@ -181,12 +193,12 @@ button {
 
     header {
         width: 100vw;
-        height: 20vh;
-        
+        height: 15vh;
+
     }
 
     main {
-        height: 80vh;
+        height: 85vh;
         width: 100vw;
 
 
@@ -196,6 +208,7 @@ button {
     .container1 {
         width: 100%;
         margin: 5px 0;
+        justify-content: space-around;
     }
 
     .container2 {
@@ -207,6 +220,10 @@ button {
 
     button {
         width: 100%;
+    }
+
+    .container2__texto img {
+       display: none;
     }
 
     .boton__copiar {
