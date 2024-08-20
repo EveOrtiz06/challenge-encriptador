@@ -11,7 +11,7 @@
 }
 
 body {
-    display: flex ;
+    display: flex;
     height: 100vh;
     width: auto;
     background-color: var(--color-primario);
@@ -20,17 +20,17 @@ body {
 
 
 /* HEADER */
- /* header {
+/* header {
     width: 15vw;
     height: 100vh;
     
 }  */
 
 header img {
-    
+
     margin: 30px 10px;
-    
-} 
+
+}
 
 
 
@@ -40,7 +40,7 @@ header img {
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: var(--color-primario);
-    margin: 20px auto;
+    margin: auto;
     padding: 0;
     height: 90vh;
     width: 90vw;
@@ -54,10 +54,11 @@ header img {
 /* SECCION 1 */
 .container1 {
     height: 100%;
-    flex-flow: column wrap;
+    display: flex;
     justify-content: space-between;
-    
-    padding: 10px;
+    flex-direction: column;
+
+
 
 
 }
@@ -93,10 +94,10 @@ textarea {
 .container__botones {
     display: flex;
     flex-wrap: wrap;
-    align-items: center; 
-    justify-content: center; 
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    
+
 
 
 
@@ -111,7 +112,7 @@ button {
     width: 250px;
     height: 67px;
     cursor: pointer;
-    margin: 30px auto;
+    margin: 10px auto;
 
 
 
@@ -129,7 +130,7 @@ button {
 
 /* SECCION 2 */
 .container2 {
-    width: 25vw;
+    width: 280px;
     height: 100%;
     margin: auto;
 }
@@ -140,15 +141,17 @@ button {
     border-radius: 32px;
     border: 0 solid;
     background-color: var(--color-terciario);
-    display: flex;
-    justify-content: center;
-    align-items: end;
+    display: block;
+    justify-content: space-between;
+    justify-items: center;
+
+
 
 }
 
-.boton__copiar {
+.butoon__copiar {
 
-
+    align-self: flex-end;
     background-color: var(--color-terciario);
 }
 
@@ -171,33 +174,39 @@ button {
     body {
         flex-wrap: wrap;
     }
+
+    header {
+        width: 100vw;
+        height: 20vh;
+        ;
+    }
+
     main {
-        
-        height: 90vh;
+
+        height: 80vh;
         width: 100vw;
-       
-    
+
+
     }
+
     /* HEADER */
-    header  {
-        width: 100vw;
-        height: 10vh;
-    }
 
 
 
     .container1 {
         width: 100%;
+        margin: 5px 0;
     }
 
     .container2 {
         width: 100vw;
-        height: 100%;
+        height: 30%;
+        margin: 5px 0;
     }
 
 
     button {
-        width:100%;
+        width: 100%;
     }
 
     .boton__copiar {
