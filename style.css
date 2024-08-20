@@ -22,10 +22,10 @@ body {
 
 /* HEADER */
 header {
-    
+
     height: 100h;
-    
-} 
+
+}
 
 header img {
 
@@ -136,9 +136,10 @@ button {
 
 /* SECCION 2 */
 .container2 {
-    width: auto;
+    width: 280px;
     height: 100%;
     margin: auto;
+    justify-content: center;
 }
 
 .container2__texto {
@@ -149,27 +150,36 @@ button {
     background-color: var(--color-terciario);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    
+    
+
 
 
 
 
 }
 
-.container1__texto__saliente {
+.mensaje {
+    background-color: var(--color-terciario);
+    border: none;
+    font-size: 16px;
     text-align: center;
+    background-color: transparent;
+    height: 80%;
+    width: 90%;
+    margin-top: 5px;
+    background-image: url(assets/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% auto;
+    
 }
 
-.container2__texto img {
-    width: 100%;
-    height: auto;
-}
+.boton__copiar {
 
-
-.butoon__copiar {
-
-    align-self: flex-end;
+    align-self: self-end;
     background-color: var(--color-terciario);
 }
 
@@ -201,7 +211,7 @@ button {
 
     }
 
-    
+
 
     .container1 {
         width: 100%;
@@ -213,8 +223,10 @@ button {
         width: 100vw;
         height: 30%;
         margin: 5px auto;
-       
+
     }
+
+   
 
 
     button {
@@ -227,5 +239,11 @@ button {
 
     .boton__copiar {
         width: 90%;
+        height: 67px;
+    }
+
+    .mensaje {
+        height: auto;
+        background-image: none;
     }
 }

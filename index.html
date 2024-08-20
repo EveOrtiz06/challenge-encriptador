@@ -26,8 +26,8 @@
                     <p>Solo letras minúsculas y sin acentos</p>
                 </div>
                 <div class="container__botones">
-                    <button onclick="encriptar();" id="encriptador">Encriptar</button>
-                    <button onclick="desencriptar();" id="desencriptador">Desencriptar</button>
+                    <button onclick="btnEncriptar();" id="encriptador">Encriptar</button>
+                    <button onclick="btnDesencriptar();" id="desencriptador">Desencriptar</button>
 
                 </div>
             </div>
@@ -36,12 +36,10 @@
 
         <section class="container2">
             <div class="container2__texto">
-                <img src="assets/Muñeco.png" alt="muñeco">
-                <div class="container1__texto__saliente">
-                    <h2>Ningún mensaje fue encontrado</h2>
-                    <p onclick="resultado();">Ingresa el texto que deseas encriptar.</p>
-                </div>
-                <!-- <button class="boton__copiar">Copiar</button> -->
+                <textarea class="mensaje" disabled></textarea>
+                <button onclick='btnCopiar()' class="boton__copiar">Copiar</button>
+            </div>
+
             </div>
         </section>
 
@@ -50,7 +48,7 @@
 
 
     <footer>
-       
+
     </footer>
 
 
