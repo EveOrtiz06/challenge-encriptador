@@ -21,10 +21,28 @@ function btnEncriptar() {
     const textoEncriptado = encriptar(textArea.value)
     mensaje.value = textoEncriptado
     textArea.value = "";
-    mensaje.style.backgroundImage = "none"
+    // mensaje.style.backgroundImage = "none"
+
+    cambiarDiv();
 }
 
 
+function cambiarDiv() {
+    var divOcultar = document.getElementsByClassName('container2__contenido');
+    var divMostrar = document.getElementsByClassName('container2__contenido__encriptado');
+
+    if (divOcultar.length > 0) {  // Verifica si hay al menos un elemento para ocultar
+        divOcultar[0].style.display = 'none';
+    }
+
+    if (divMostrar.length > 0) {  // Verifica si hay al menos un elemento para mostrar
+        divMostrar[0].style.display = 'block';  // Cambia el estilo para mostrar el div
+    }
+}
+
+
+
+// FUNCIÓN ENCRIPTAR
 
 function encriptar(stringEncriptada) {
     let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
@@ -38,7 +56,7 @@ function encriptar(stringEncriptada) {
     return stringEncriptada
 }
 
-
+// BOTON DESENCRIPTAR
 
 function btnDesencriptar() {
     const textoEncriptado = desencriptar(textArea.value)
@@ -73,4 +91,11 @@ function btnCopiar() {
     }).catch(err => {
         console.error("Error al copiar al portapapeles: ", err);
     });
+
+    
+    // Restablece la visibilidad de los divs directamente
+    document.querySelector('.container2__contenido').style.display = 'block';
+    document.querySelector('.container2__contenido__encriptado').style.display = 'none';
+
+
 }

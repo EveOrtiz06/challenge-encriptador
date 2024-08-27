@@ -8,12 +8,12 @@
     --color-primario: #E5E5E5;
     --color-secundario: #0A3871;
     --color-terciario: #ffffff;
+    
 }
 
 body {
     display: flex;
-    height: 100vh;
-    width: auto;
+    
     background-color: var(--color-primario);
     margin-bottom: 10px;
 
@@ -23,7 +23,8 @@ body {
 /* HEADER */
 header {
 
-    height: 100h;
+    height: 100vh;
+    width: 10vw;
 
 }
 
@@ -43,7 +44,7 @@ header img {
     flex-wrap: wrap;
     background-color: var(--color-primario);
     margin: auto;
-    padding: 0;
+    
     height: 85vh;
     width: 90vw;
 
@@ -60,6 +61,7 @@ header img {
 
     flex-direction: column;
     justify-content: space-between;
+    
 
 
 
@@ -82,6 +84,7 @@ textarea {
 
 .container__informacion__botones {
     align-items: end;
+
 }
 
 .texto__ingresado::placeholder {
@@ -101,7 +104,6 @@ textarea {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-
     width: 100%;
 
 
@@ -142,7 +144,7 @@ button {
     justify-content: center;
 }
 
-.container2__texto {
+/* .container2__encriptado {
     width: 100%;
     height: 100%;
     border-radius: 32px;
@@ -150,36 +152,76 @@ button {
     background-color: var(--color-terciario);
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    
-    
+    text-align: center;
 
+} */
 
+.container2__contenido {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 32px;
+    border: 0 solid;
+    background-color: var(--color-terciario);
 
+}
 
+.container2__contenido__elementos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
+}
+
+.container2__contenido img {
+    width: 80%;
+    height: auto;
+}
+
+.container2__contenido__encriptado {
+    display: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 32px;
+    border: 0 solid;
+    background-color: var(--color-terciario);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 15px;
+
+}
+
+.container2__encriptado__elementos {
+    width: 100%;
+    height: 100%;
 }
 
 .mensaje {
     background-color: var(--color-terciario);
     border: none;
     font-size: 16px;
-    text-align: center;
-    background-color: transparent;
+    text-align: left;
+    
     height: 80%;
     width: 90%;
-    margin-top: 5px;
-    background-image: url(assets/Muñeco.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 90% auto;
-    
+
+
+
+
+
 }
 
 .boton__copiar {
 
-    align-self: self-end;
+    /* align-self: self-end; */
     background-color: var(--color-terciario);
 }
 
@@ -204,9 +246,10 @@ button {
 
     }
 
-    main {
+    .container__general {
         height: 85vh;
-        width: 100vw;
+        width: 95vw;
+        display: flex;
 
 
     }
@@ -216,24 +259,64 @@ button {
     .container1 {
         width: 100%;
         margin: 5px 0;
+        height: auto;
         justify-content: center;
     }
 
     .container2 {
-        width: 100vw;
-        height: 30%;
+        width: 100%;
+        
         margin: 5px auto;
 
     }
 
-   
+
+
+
+    /* .container2__encriptado {
+        justify-content: center;
+        width: 100%;
+        
+    } */
+
+    .container2__contenido {
+
+        width: 100%;
+        height: 30%;
+
+    }
+
+    .container2__contenido__elementos {
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+
+    }
+
+    .container2__contenido__encriptado {
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* reemplazos de prueba */
+
+
+
+
+
+
+
 
 
     button {
         width: 100%;
     }
 
-    .container2__texto img {
+    .container2__contenido img {
         display: none;
     }
 
@@ -243,7 +326,10 @@ button {
     }
 
     .mensaje {
-        height: auto;
+
         background-image: none;
+
+        width: 90%;
+        height: 80%;
     }
 }

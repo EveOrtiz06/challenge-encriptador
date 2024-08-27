@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+
+    </style>
+    
 </head>
 
 <body>
@@ -35,26 +40,34 @@
         </section>
 
         <section class="container2">
-            <div class="container2__texto">
-                <textarea class="mensaje" disabled></textarea>
-                <button onclick='btnCopiar()' class="boton__copiar">Copiar</button>
+            <!-- <div class="container2__encriptado"></div> -->
+            <div class="container2__contenido">
+                <div class="container2__contenido__elementos">
+                    <img src="assets/Muñeco.png" alt="muñeco"></img>
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+            </div>
+            <div class="container2__contenido__encriptado">
+                <div class="container2__encriptado__elementos">
+                    <textarea class="mensaje" cols="90"></textarea>
+                    <button onclick='btnCopiar()' class="boton__copiar">Copiar</button>
+                </div>
             </div>
 
-            </div>
         </section>
 
 
     </main>
 
 
-    <footer>
-
-    </footer>
 
 
 
 
-    <script src="app.js"></script>
+    <script src="app.js">
+
+    </script>
 </body>
 
 </html>
