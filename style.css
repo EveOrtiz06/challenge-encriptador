@@ -1,19 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: "Inter", sans-serif;
 }
 
 :root {
     --color-primario: #E5E5E5;
     --color-secundario: #0A3871;
     --color-terciario: #ffffff;
-    
+    --fuente-inter:
 }
 
 body {
     display: flex;
-    
+
     background-color: var(--color-primario);
     margin-bottom: 10px;
 
@@ -30,7 +33,7 @@ header {
 
 header img {
 
-    margin: 30px 10px;
+    margin: 30px auto;
 
 }
 
@@ -44,8 +47,8 @@ header img {
     flex-wrap: wrap;
     background-color: var(--color-primario);
     margin: auto;
-    
-    height: 85vh;
+
+    height: 90vh;
     width: 90vw;
 
 
@@ -58,10 +61,10 @@ header img {
 .container1 {
     height: 100%;
     display: flex;
-
+    width: auto;
     flex-direction: column;
     justify-content: space-between;
-    
+
 
 
 
@@ -78,6 +81,10 @@ textarea {
     width: 100%;
     height: auto;
     resize: none;
+    color: var(--color-secundario);
+    font-weight: 300;
+    outline: none;
+    border: none;
 
 }
 
@@ -97,14 +104,18 @@ textarea {
 .container__informacion {
     display: inline-flex;
     gap: 10px;
+    font-weight: 300;
 }
 
 .container__botones {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+
     width: 100%;
+    gap: 10px;
+
 
 
 
@@ -121,6 +132,7 @@ button {
     height: 67px;
     cursor: pointer;
     margin: 10px auto;
+    font-weight: 300;
 
 
 
@@ -133,8 +145,16 @@ button {
 }
 
 #desencriptador {
+    background-color: #D8DFE8;
+
     color: var(--color-secundario);
 }
+
+#desencriptador:focus {
+    background-color: var(--color-primario);
+    outline: none;
+}
+
 
 /* SECCION 2 */
 .container2 {
@@ -144,19 +164,7 @@ button {
     justify-content: center;
 }
 
-/* .container2__encriptado {
-    width: 100%;
-    height: 100%;
-    border-radius: 32px;
-    border: 0 solid;
-    background-color: var(--color-terciario);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 
-} */
 
 .container2__contenido {
     display: block;
@@ -169,8 +177,9 @@ button {
 }
 
 .container2__contenido__elementos {
-    width: 100%;
+    width: 90%;
     height: 100%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,6 +191,18 @@ button {
 .container2__contenido img {
     width: 80%;
     height: auto;
+}
+
+.container2__contenido h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #343A40;
+}
+
+.container2__contenido p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #495057;
 }
 
 .container2__contenido__encriptado {
@@ -207,13 +228,12 @@ button {
 .mensaje {
     background-color: var(--color-terciario);
     border: none;
-    font-size: 16px;
+    font-size: 24px;
     text-align: left;
-    
     height: 80%;
     width: 90%;
 
-
+    color: #495057;
 
 
 
@@ -221,7 +241,6 @@ button {
 
 .boton__copiar {
 
-    /* align-self: self-end; */
     background-color: var(--color-terciario);
 }
 
@@ -265,19 +284,16 @@ button {
 
     .container2 {
         width: 100%;
-        
+
         margin: 5px auto;
+
+        padding: 10px auto;
 
     }
 
 
 
 
-    /* .container2__encriptado {
-        justify-content: center;
-        width: 100%;
-        
-    } */
 
     .container2__contenido {
 
@@ -302,7 +318,7 @@ button {
         height: 100%;
     }
 
-    /* reemplazos de prueba */
+   
 
 
 

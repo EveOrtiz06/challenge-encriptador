@@ -21,8 +21,7 @@ function btnEncriptar() {
     const textoEncriptado = encriptar(textArea.value)
     mensaje.value = textoEncriptado
     textArea.value = "";
-    // mensaje.style.backgroundImage = "none"
-
+    
     cambiarDiv();
 }
 
@@ -63,6 +62,7 @@ function btnDesencriptar() {
     mensaje.value = textoEncriptado
     textArea.value = "";
     mensaje.style.backgroundImage = "none"
+    cambiarDiv();
 }
 
 function desencriptar(stringDesencriptada) {
@@ -76,6 +76,8 @@ function desencriptar(stringDesencriptada) {
     }
     return stringDesencriptada
 }
+
+// FUNCION BTN COPIAR
 
 function btnCopiar() {
     // Selecciona el textarea con la clase .mensaje
