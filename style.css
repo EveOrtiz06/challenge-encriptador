@@ -82,7 +82,7 @@ textarea {
     height: auto;
     resize: none;
     color: var(--color-secundario);
-    font-weight: 300;
+    font-weight: regular;
     outline: none;
     border: none;
 
@@ -107,7 +107,7 @@ textarea {
 .container__informacion {
     display: inline-flex;
     gap: 10px;
-    font-weight: 300;
+    font-weight: regular;
 }
 
 .container__botones {
@@ -135,7 +135,7 @@ button {
     height: 67px;
     cursor: pointer;
     margin: 10px auto;
-    font-weight: 300;
+    font-weight: regular;
 
 
 
@@ -176,7 +176,7 @@ button {
     border-radius: 32px;
     border: 0 solid;
     background-color: var(--color-terciario);
-
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .container2__contenido__elementos {
@@ -188,7 +188,7 @@ button {
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    
 }
 
 .container2__contenido img {
@@ -198,13 +198,13 @@ button {
 
 .container2__contenido h2 {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: bold;
     color: #343A40;
 }
 
 .container2__contenido p {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: regular;
     color: #495057;
 }
 
@@ -220,6 +220,7 @@ button {
     text-align: center;
     justify-content: space-between;
     padding-top: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
 
 }
 
