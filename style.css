@@ -98,6 +98,9 @@ textarea {
     color: var(--color-secundario);
 }
 
+.container__informacion img {
+    margin: auto;
+}
 
 
 
@@ -318,7 +321,7 @@ button {
         height: 100%;
     }
 
-   
+
 
 
 

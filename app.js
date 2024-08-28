@@ -12,7 +12,9 @@
 let textArea = document.querySelector('.texto__ingresado');
 let mensaje = document.querySelector('.mensaje');
 
-
+document.querySelector('.texto__ingresado').addEventListener('input', function(event) {
+    event.target.value = event.target.value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+});
 
 
 
